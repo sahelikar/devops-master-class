@@ -40,10 +40,7 @@
 - https://hub.docker.com/r/in28min/hello-world-nodejs
 
 # Commands
-Use powershell in admin mode for Windows. Use the command
-```
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+
 
 ```
 docker --version
