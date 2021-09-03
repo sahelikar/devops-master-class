@@ -47,8 +47,10 @@ docker --version
 docker run -p 5000:5000 in28min/hello-world-python:0.0.1.RELEASE
 docker run -p 5000:5000 in28min/hello-world-java:0.0.1.RELEASE
 docker run -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+--------Detached mode use -d -------------
 docker run -d -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
 docker run -d -p 5001:5000 in28min/hello-world-python:0.0.1.RELEASE
+---------------- Connect with logs -f with id ---------------------
 docker logs 04e52ff9270f5810eefe1f77222852dc1461c22440d4ecd6228b5c38f09d838e
 docker logs c2ba
 docker images
